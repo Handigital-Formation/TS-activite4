@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "target": "es2015",
+    "module": "system",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./js",
+    "watch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@NF/*": ["./ts/data/*"],
+      "@UI/*": ["./ts/UI/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
