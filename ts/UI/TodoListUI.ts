@@ -4,7 +4,7 @@ import {UIComponent} from "./UIComponent";
 const htmlTemplate = `
 	<section class="todoapp">
 		<header class="header">
-			<h1>Activite 4 : Liste</h1>
+			<h1>Liste</h1>
 			<form action="#/">
 				<input class="new-todo" placeholder="Que faire?" autofocus>
 			</form>
